@@ -1,17 +1,37 @@
-p.redred{
-    color:red;
-    font-size: 40px;
+
+
+.bg-primary{
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+p#redred{
+    background-color: black(138,43,226,0.5);
+    color:white;
+    border:10px dashed purple;
+    background-image:  url(../assets/img/0123.jpg);
+    font-size: 55px;
     text-align: center;
+    font-family: 'Noto Sans TC', sans-serif;
+    letter-spacing: 0.8;
+    line-height: 1.5em;
 }
 
 
 .blueblue{
-    color:blue;
+    color:pink;
 }
  
 body{ 
      font-family:'Noto Sans TC', sans-serif;
 }
+
 
 h1,h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family:'Noto Serif TC', sans-serif; 
