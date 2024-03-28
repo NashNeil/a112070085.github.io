@@ -1,7 +1,12 @@
 
 
 .bg-primary{
-    background-color: pink;
+    background-color: pink !important;
+    background-image:  url(../assets/img/);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 
