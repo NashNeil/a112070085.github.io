@@ -19,9 +19,9 @@
 p#redred{
     background-color: black(138,43,226,0.5);
     color:white;
-    border:10px dashed purple;
+    border:10px solid rgb(249, 203, 135);
     background-image:  url(../assets/img/0123.jpg);
-    font-size: 55px;
+    font-size: 120px;
     text-align: center;
     font-family: 'Noto Sans TC', sans-serif;
     letter-spacing: 0.8;
@@ -43,6 +43,24 @@ h1,h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .expedu_icon{
-    color:aqua;
-    background-color: antiquewhite;
+    color:rgb(1, 219, 253);
+    background-color: rgb(247, 247, 247);
+}
+table.mytable th{
+    width: 80%;
+    text-align: center;
+    background-color: rgb(210, 214, 243);
+    color: rgb(58, 58, 58);
+    border: 2.5px solid rgb(139, 139, 139)
+}
+table.mytable td{
+    text-align: center;
+    border-collapse: separate;
+    border: 2.5px solid rgb(139, 139, 139)
+}
+table.mytable tr:nth-child(even){
+    background-color: rgb(197, 213, 243);
+}
+table.mytable tr:nth-child(odd){
+    background-color: rgb(243, 216, 230);
 }
