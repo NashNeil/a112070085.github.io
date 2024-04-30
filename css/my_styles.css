@@ -18,7 +18,7 @@
 
 p#redred{
     background-color: black(138,43,226,0.5);
-    color:white;
+    color:yellow;
     border:10px solid rgb(249, 203, 135);
     background-image:  url(../assets/img/0123.jpg);
     font-size: 120px;
@@ -63,4 +63,13 @@ table.mytable tr:nth-child(even){
 }
 table.mytable tr:nth-child(odd){
     background-color: rgb(243, 216, 230);
+}
+
+ol.list-group>li:hover {
+    background-color: rgb(96, 90, 102);
+    color: azure; 
+}
+   ol.mylist>li:hover {
+    background-color: rgb(96, 90, 102);
+    color: azure; 
 }
