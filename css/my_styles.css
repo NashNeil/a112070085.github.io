@@ -73,3 +73,23 @@ ol.list-group>li:hover {
     background-color: rgb(96, 90, 102);
     color: azure; 
 }
+.overflowtest{
+    font-size:18px;
+    background-color: #878514;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow:hidden;
+    height: 85px;
+   }
+   .overflowtest1{
+    font-size:18px;
+    background-color: #066231;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin: 30px auto;
+    overflow:hidden;
+    height: 85px;
+   }
